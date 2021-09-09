@@ -3,7 +3,7 @@
 const client = require('stremio-addon-client')
 
 const ENDPOINTS = [
-    "https://v3-cinemeta.strem.io/manifest.json",
+    "https://94c8cb9f702d-tmdb-addon.baby-beamup.club/hu-HU/manifest.json",
     "https://v3-channels.strem.io/manifest.json",
     "https://watchhub.strem.io/manifest.json",
     "https://caching.stremio.net/publicdomainmovies.now.sh/manifest.json",

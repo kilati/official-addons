@@ -1,10 +1,10 @@
 [
     {
         "manifest": {
-            "id": "com.linvo.cinemeta",
-            "version": "2.13.6",
+            "id": "tmdb.addon",
+            "version": "2.0.3",
             "description": "The official add-on for movie and series catalogs",
-            "name": "Cinemeta",
+            "name": "TMDB",
             "resources": [
                 "catalog",
                 "meta",
@@ -15,7 +15,7 @@
                 "series"
             ],
             "idPrefixes": [
-                "tt"
+                "tmdb:"
             ],
             "addonCatalogs": [
                 {
@@ -235,7 +235,7 @@
                 },
                 {
                     "type": "movie",
-                    "id": "imdbRating",
+                    "id": "tmdbRating",
                     "genres": [
                         "Action",
                         "Adventure",
@@ -266,7 +266,7 @@
                 },
                 {
                     "type": "series",
-                    "id": "imdbRating",
+                    "id": "tmdbRating",
                     "genres": [
                         "Action",
                         "Adventure",
@@ -311,10 +311,10 @@
             ]
         },
         "transportName": "http",
-        "transportUrl": "https://v3-cinemeta.strem.io/manifest.json",
+        "transportUrl": "https://94c8cb9f702d-tmdb-addon.baby-beamup.club/hu-HU/manifest.json",
         "flags": {
             "official": true,
-            "protected": true
+            "protected": false
         }
     },
     {
@@ -501,7 +501,7 @@
         "transportUrl": "http://127.0.0.1:11470/local-addon/manifest.json",
         "flags": {
             "official": true,
-            "protected": true
+            "protected": false
         }
     }
 ]
